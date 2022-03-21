@@ -18,9 +18,9 @@ import rayman from './imgs/rayman.png'
 
 import ryuninja from './imgs/ryuninja.png'
 import cj from './imgs/cj.png'
-import orta from './imgs/crash.png'
+import orta from './imgs/orta.png'
 
-import niko from './imgs/crash.png'
+import niko from './imgs/niko.png'
 import bdb from './imgs/bdb.png'
 import marcus from './imgs/marcusfenix.png'
 
@@ -154,7 +154,7 @@ function App() {
   return (
     <div className='App'>
         <Global/>
-        <Router basename='/'>
+        <Router basename='/wheres-waldo'>
           <Header />
 
           <Routes>

@@ -12,9 +12,10 @@ const StartGameStyle = styled.div`
     text-align: center;
 `
 const GameCardsContainer = styled.div`
+    margin: 2rem 0 0;
     width: 100%;
     display: grid;
-    gap: 5px;
+    gap: 20px;
     grid-template-columns: repeat(auto-fill, 10rem);
     grid-template-rows: repeat(auto-fill, 15rem);
     justify-content: center;
