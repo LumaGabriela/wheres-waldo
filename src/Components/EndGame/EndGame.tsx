@@ -20,7 +20,7 @@ const EndGame:React.FC<Props> = ({
         if(score.data() === undefined) {
             await setDoc(docRef, currentScore) 
             resetGame()
-            window.open('/', '_top')
+            window.open('/wheres-waldo', '_top')
         }
         else console.log('user already exists')
         
