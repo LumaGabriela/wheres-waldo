@@ -55,7 +55,7 @@ const Game:React.FC<Props> = ({
             setGameCoords({x,y})
             setClientDimensions({clientX, clientY})
             setRelCoords({relX, relY})
-            console.log(relX, relY)
+            
         }
     }
     //
