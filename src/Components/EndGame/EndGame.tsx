@@ -55,7 +55,7 @@ const EndGame:React.FC<Props> = ({
             </input>
             <div id="buttons">
                 <button id="cancel-btn" 
-                onClick={() => {window.open('/wheres-waldo', '_top')}}>Cancel
+                onClick={() => {window.open('/wheres-waldo/', '_top')}}>Cancel
                 </button>
                 <button id="submit-btn" onClick={sendScore}>Submit
                 </button>
