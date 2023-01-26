@@ -22,7 +22,12 @@ const EndGame:React.FC<Props> = ({
             resetGame()
             window.open('/wheres-waldo', '_top')
         }
-        else console.log('user already exists')
+        else {
+            await setDoc(docRef, currentScore) 
+            resetGame()
+            window.open('/wheres-waldo', '_top')
+            console.log('user already exists')  // fix pro link final
+        }
         
     }
     const getUser = (e:any) => {
