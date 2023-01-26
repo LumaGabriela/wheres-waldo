@@ -16,6 +16,7 @@ const EndGame:React.FC<Props> = ({
         const scoreRef = collection(db, 'Leaderboards', level.title, 'scores')
         const docRef = doc(scoreRef, currentScore.user)
         const score = await getDoc(docRef)
+        console.log( score.data())
         
         if(score.data() === undefined) {
             await setDoc(docRef, currentScore) 
