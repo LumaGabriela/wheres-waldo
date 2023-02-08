@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/wheres-waldo/static/js/main.b7b3f926.js",
+    "main.js": "/wheres-waldo/static/js/main.cb2b2ffc.js",
     "static/js/787.4ce2c4d5.chunk.js": "/wheres-waldo/static/js/787.4ce2c4d5.chunk.js",
     "static/media/boo.png": "/wheres-waldo/static/media/boo.acbffa482e676f4d0e77.png",
     "static/media/samus.png": "/wheres-waldo/static/media/samus.47984a835467dea6c5cc.png",
@@ -39,10 +39,10 @@
     "static/media/2b.png": "/wheres-waldo/static/media/2b.20f899e0a94837136599.png",
     "static/media/worm.png": "/wheres-waldo/static/media/worm.e3d0531e2e4ceb465ee5.png",
     "index.html": "/wheres-waldo/index.html",
-    "main.b7b3f926.js.map": "/wheres-waldo/static/js/main.b7b3f926.js.map",
+    "main.cb2b2ffc.js.map": "/wheres-waldo/static/js/main.cb2b2ffc.js.map",
     "787.4ce2c4d5.chunk.js.map": "/wheres-waldo/static/js/787.4ce2c4d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.b7b3f926.js"
+    "static/js/main.cb2b2ffc.js"
   ]
 }
